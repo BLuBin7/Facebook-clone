@@ -13,7 +13,6 @@
 			$image = $image_class->get_thumb_profile($FRIEND_ROW['profile_image']);
 		}
  
-
 	?>
 
 	<a href="<?=ROOT?><?php echo $FRIEND_ROW['type']; ?>/<?php echo $FRIEND_ROW['userid']; ?>">
