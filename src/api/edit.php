@@ -49,7 +49,7 @@
 	//if something was posted
 	if($_SERVER['REQUEST_METHOD'] == "POST"){
 
-		$Post->edit_post($_POST,$_FILES);
+		$Post->edit_post($USER,$_POST,$_FILES);
 
 
 		header("Location: ".$_SESSION['return_to']);
